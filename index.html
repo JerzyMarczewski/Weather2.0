@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather 2.0</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <input type="text" autocomplete="off" class="search-box"
+            placeholder="Search for a city...">
+        
+        <div class="tooltip">
+            <i class="fas fa-home"></i>
+            <span class="tooltip-text">Click this button to get your current weather</span>
+        </div>
+        
+    </header>
+    <main>
+        <section class="location">
+            <div class="city"></div>
+            <div class="date">You must input information first</div>
+        </section>
+        <div class="current">
+            <div class="temp"></div>
+            <div class="weather"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
